@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_start",
+        "processors": "halloween:avion/graveyard_paths",
+        "projection": "rigid"
+      },
+      "weight": 50
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "halloween:avion/graveyard_starts"
+}

@@ -1,0 +1,51 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_path_x",
+        "processors": "halloween:avion/graveyard_paths",
+        "projection": "rigid"
+      },
+      "weight": 6
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_path_t",
+        "processors": "halloween:avion/graveyard_paths",
+        "projection": "rigid"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_path_l",
+        "processors": "halloween:avion/graveyard_paths",
+        "projection": "rigid"
+      },
+      "weight": 11
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_path_i",
+        "processors": "halloween:avion/graveyard_paths",
+        "projection": "rigid"
+      },
+      "weight": 6
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_empty",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "halloween:avion/graveyard_gates",
+  "name": "halloween:avion/graveyard_paths"
+}
