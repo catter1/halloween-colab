@@ -1,0 +1,3 @@
+{ "condition":"entity_properties", "entity":"this",
+		"predicate": {"effects":{"minecraft:darkness":{"amplifier":{"min":20},"duration":{"min": 50}}}}
+}

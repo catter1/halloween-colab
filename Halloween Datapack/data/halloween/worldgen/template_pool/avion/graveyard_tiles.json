@@ -1,0 +1,96 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_empty",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_single",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_double",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_triple",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_mound",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_hill",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_double_chest",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_triple_chest",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_tomb",
+        "processors": "halloween:avion/graveyard_graves",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:avion/graveyard_tile_single_wall",
+        "processors": "halloween:avion/graveyard_paths",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "halloween:avion/graveyard_walls",
+  "name": "halloween:avion/graveyard_tiles"
+}
