@@ -98,9 +98,9 @@
     "ambient": [
       {
         "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
+        "maxCount": 800,
+        "minCount": 80,
+        "weight": 100
       }
     ],
     "axolotls": [],
@@ -133,7 +133,7 @@
         "type": "minecraft:wolf",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 5
+        "weight": 50
       }
     ],
     "misc": [],
@@ -166,7 +166,7 @@
         "type": "minecraft:creeper",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 1
       },
       {
         "type": "minecraft:slime",
@@ -178,13 +178,13 @@
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 1,
-        "weight": 10
+        "weight": 1
       },
       {
         "type": "minecraft:witch",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
+        "weight": 100
       }
     ],
     "underground_water_creature": [
