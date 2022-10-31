@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pumpkin_seeds"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pumpkin_pie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 9
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+            "type": "minecraft:binomial",
+            "n": 8,
+            "p": 0.05
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:golden_apple"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "halloween:item/bat_bomb"
+          }
+        ]
+      }
+    ]
+  }
