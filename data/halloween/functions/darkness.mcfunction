@@ -1,2 +1,2 @@
-execute as @a[gamemode=!spectator,gamemode=!creative,predicate=!halloween:avion/effect_darkness_from_environment,predicate=halloween:avion/light_level_0,predicate=!halloween:avion/effect_darkness_reduce_flicker] run effect give @s darkness 12 20 true
-execute as @a[predicate=halloween:avion/effect_darkness_from_cmd,predicate=!halloween:avion/light_level_0] run effect clear @s darkness
+execute as @a[gamemode=!spectator,gamemode=!creative,predicate=!halloween:effect_darkness_from_environment,predicate=halloween:light_level_0,predicate=!halloween:effect_darkness_reduce_flicker] run effect give @s darkness 12 20 true
+execute as @a[predicate=halloween:effect_darkness_from_cmd,predicate=!halloween:light_level_0] run effect clear @s darkness
