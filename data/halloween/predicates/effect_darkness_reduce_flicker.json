@@ -5,7 +5,7 @@
 		"effects": {
 			"minecraft:darkness": {
 				"amplifier": {
-					"min":20
+					"min": 20
 				},
 				"duration": {
 					"min": 50
