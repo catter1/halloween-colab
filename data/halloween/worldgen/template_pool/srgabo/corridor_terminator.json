@@ -1,0 +1,42 @@
+{
+  "name": "halloween:srgabo/nether_complex/corridor_terminator",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/full_brick_wall2",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/wall_with_some_bars2",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/full_bars_wall2",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/broken_wall2",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    }
+  ]
+}

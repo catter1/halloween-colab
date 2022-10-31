@@ -1,0 +1,87 @@
+{
+  "name": "halloween:srgabo/nether_complex/boss_side_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/full_brick_wall",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/wall_with_some_bars",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/full_bars_wall",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/broken_wall",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/small_well",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/small_cage",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/small_cage_opened",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/secured_chest",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/lava_cage",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_deepslate_only"
+      }
+    }
+  ]
+}

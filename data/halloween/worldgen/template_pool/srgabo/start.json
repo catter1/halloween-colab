@@ -1,0 +1,15 @@
+{
+  "name": "halloween:srgabo/nether_complex/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/main_room",
+        "processors": "halloween:srgabo/brick_cracking_20_percent"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "halloween:srgabo/nether_complex/corridor",
+  "fallback": "halloween:srgabo/nether_complex/corridor_terminator",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/main_corridor",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_except_blackstone"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/lava_well_room",
+        "processors": "halloween:srgabo/brick_cracking_20_percent"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/lava_well_room_secret",
+        "processors": "halloween:srgabo/brick_cracking_20_percent"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/spiral_stair_down",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_except_blackstone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/spiral_stair_up",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_except_blackstone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/staircase_down",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_except_blackstone"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "halloween:srgabo/nether_complex/staircase_up",
+        "processors": "halloween:srgabo/brick_cracking_20_percent_except_blackstone"
+      }
+    }
+  ]
+}
