@@ -1,0 +1,20 @@
+{
+    "parent": "halloween:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "nbt": "{incendium:{item:'fang_shot'}}"
+          }
+        }
+      },
+      "log_spam_fixer": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "halloween:fang_shot"
+    }
+}
+  

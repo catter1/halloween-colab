@@ -1,0 +1,58 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:multishot": 1,
+                  "minecraft:piercing": 3,
+                  "minecraft:unbreaking": 1
+                }
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Fang Shot",
+                  "color": "#27b4c6",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Shoots three fangs out",
+                    "color": "#2747c6",
+                    "italic": true
+                  },
+                  {
+                    "text": "with an explosive quality",
+                    "color": "#2747c6",
+                    "italic": true
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{halloween:{item:'fang_shot'},RepairCost:1000}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
