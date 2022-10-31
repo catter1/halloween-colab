@@ -5,7 +5,7 @@
         "trigger": "minecraft:shot_crossbow",
         "conditions": {
           "item": {
-            "nbt": "{incendium:{item:'fang_shot'}}"
+            "nbt": "{halloween:{item:'fang_shot'}}"
           }
         }
       },
