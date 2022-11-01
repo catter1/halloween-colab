@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "halloween:tombstone",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1823159867,
+      "exclusion_zone": {
+        "other_set": "minecraft:ancient_cities",
+        "chunk_count": 10
+      },
+      "spacing": 32,
+      "separation": 16
+    }
+  }  
