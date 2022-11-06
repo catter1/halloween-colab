@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "halloween:thxlotl/pumpkin_patch",
+  "biomes": "halloween:pumpkin_patch",
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "halloween:pumpkin",

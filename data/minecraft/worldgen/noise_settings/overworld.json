@@ -429,7 +429,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "halloween:thxlotl/pumpkin_patch"
+                        "halloween:pumpkin_patch"
                       ]
                     },
                     "then_run": {
