@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "halloween:pumpkin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 354647332,
+    "spacing": 2,
+    "separation": 0
+  }
+}

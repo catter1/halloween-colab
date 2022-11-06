@@ -1,0 +1,24 @@
+{
+  "name": "halloween:pumpkin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:pumpkin",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },    
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "halloween:giant_pumpkin",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
