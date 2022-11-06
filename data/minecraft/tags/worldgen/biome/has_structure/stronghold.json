@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:is_overworld",
-    "halloween:pumpkin_patch"
-  ]
-}
